@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" style="position: relative; min-height: 100%;">
     <head>
@@ -23,6 +22,7 @@
         <link rel="stylesheet" href="assets/css/animate.css" >
         <link rel="stylesheet" href="assets/css/magnific-popup.css" >
         <link rel="stylesheet" href="assets/style.css">
+
         <link rel="stylesheet" href="assets/css/custom.css" >
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="img/favicon.ico">
@@ -32,71 +32,78 @@
     </head>
 
     <body class="stretched">
-        @include('nav') 
-    
+
+      @include('nav')
+
+        <section id="slider" class="slider-element vh-50" style="background: url('images/cccc1.png') center center; background-size: cover;"></section>
            
         <div class="section mt-0 py-5">
             <div class="container">
                 <h3 class="mb-0">
-                    Key Dates
+                    Conference Venue
                 </h3>
+            </div>
+        </div>
+
+
+        <div class="py-1 mb-3">
+            <div class="container">
+                
+                <p>
+                    The conference will take place at the <a class="text-decoration-underline" href="https://www.cccc.gr/en" target="_blank">Cultural Conference Center of Heraklion</a> in Crete, Greece.
+                </p>
+
+                <div class="row">
+
+                    <div class="col-md-9 mt-0">
+                        <h4 class="mb-4">About</h4>
+                        <p>
+                            A place of excellent possibilities and 
+                            infrastructure, a center of promotion as well as production of culture, that gives space to artistic expression 
+                            in all the arts and cultures. The fruit of a long and multi-faceted effort, the Cultural and Conference Center 
+                            of Heraklion (PSKI) is a boast and a cultural stake for the municipal council which supported all stages of this project since 1975, starting from the decision and reaching the completion of its 
+                            construction and its delivery to the citizens of Heraklion, Crete, Greece, the Mediterranean. 
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="images/cccc3.png" alt="">
+                    </div>
+
+                </div>
+
             </div>
         </div>
 
         <div class="py-1 mb-5">
             <div class="container">
+                <div class="row">
 
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th class="w-50">Action</th>
-                            <th class="w-50">Deadline</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Special Sessions Proposal Deadline</td>
-                            <td>30 June 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Open submission Website</td>
-                            <td>7 September 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Papers Submission Deadline</td>
-                            <td>9 December 2022 (updated)</td>
-                        </tr>
-                        <tr>
-                            <td>Acceptance Notification</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Open Registration Website</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Early Registration Deadline</td>
-                            <td>31 March 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Camera-ready Deadline</td>
-                            <td>7 April 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Satellite Events</td>
-                            <td>16 May 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Main Conference</td>
-                            <td>17 - 19 May 2023</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <div class="col-md-3">
+                        <img id="venue-image" src="images/hall.png" alt="">
+                    </div>
 
+                    <div class="col-md-9 mt-0">
+                        <h4 class="mb-0">Facilities</h4>
+                        <p>
+                            <ul class="my-list">
+                                <li> <i class="icon-ok-sign"></i>&nbsp; The <b class="underline" onclick="showVenueImage('images/hall.png')">Concert Hall</b> has a capacity of 215 seats, and includes the required stage space and technical equipment.</li>
+                                <li> <i class="icon-ok-sign"></i>&nbsp; The <b class="underline" onclick="showVenueImage('images/stage.png')">Experimental Stage</b> with 180 seats and a stage dedicated to movie screenings, chamber music concerts, recitals, plays, lectures and other presentations.</li>
+                                <li> <i class="icon-ok-sign"></i>&nbsp; The <b class="underline" onclick="">Seminar Room</b> with 180 seats and equipment supporting the organization of conferences, workshops, exhibitions, etc., with the ability to be divided into two sections of equal capacity.</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-center"><i class="icon-globe-africa"></i></div>
+
+                <iframe class="w-100 mt-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.5594938632066!2d25.12992566584432!3d35.333394494779704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149a5987e50bedd9%3A0xab0037183204b1d2!2sCultural%20Conference%20Center%20of%20Heraklion!5e0!3m2!1sen!2sgr!4v1650026080910!5m2!1sen!2sgr" height="300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
             </div>
         </div>
 
-        <footer class="text-center text-lg-start bg-footer">
+        <footer class="text-center text-lg-start bg-footer margin-top">
             <div class="container p-4">
                 <section class="footer-text">
                     <div class="row">
@@ -151,12 +158,14 @@
             </div>
 
         </footer>
+
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/functions.js"></script>
-        <script src="assets/js/code.js"></script>
+        <script src="assets/js/venue.js"></script>
+
     </body>
 </html>

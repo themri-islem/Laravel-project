@@ -30,73 +30,87 @@
         <title> - Joint Urban Remote Sensing Event</title>
 
     </head>
-
     <body class="stretched">
+
         @include('nav') 
-    
            
         <div class="section mt-0 py-5">
             <div class="container">
                 <h3 class="mb-0">
-                    Key Dates
+                    Topics
                 </h3>
             </div>
         </div>
 
-        <div class="py-1 mb-5">
-            <div class="container">
+        <div class="container mb-5">
 
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th class="w-50">Action</th>
-                            <th class="w-50">Deadline</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Special Sessions Proposal Deadline</td>
-                            <td>30 June 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Open submission Website</td>
-                            <td>7 September 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Papers Submission Deadline</td>
-                            <td>9 December 2022 (updated)</td>
-                        </tr>
-                        <tr>
-                            <td>Acceptance Notification</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Open Registration Website</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Early Registration Deadline</td>
-                            <td>31 March 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Camera-ready Deadline</td>
-                            <td>7 April 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Satellite Events</td>
-                            <td>16 May 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Main Conference</td>
-                            <td>17 - 19 May 2023</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h3>Urban Topics</h3>
 
-            </div>
+            <ol class="list-group list-group-numbered mb-5">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">New data & sensors for urban area remote sensing</div>
+                        SAR, InSAR, Airborne and terrestrial LiDAR, UAV, VHR optical orbital and airborne sensors and data, Hyperspectral sensors and data
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Structure detection and characterization in urban areas</div>
+                        Change detection, Classification, Multitemporal analysis, Feature extraction methods, Calibration and correction approaches
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Algorithms and techniques for remotely sensed data interpretation in urban areas</div>
+                        Building extraction and reconstruction, Road and road network extraction, Vehicle detection and traffic monitoring, Urban area extraction, Land use and land cover mapping, Data mining
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Algorithms and techniques for urban area applications</div>
+                        Urban modeling, Urban area trend monitoring, Urban heat island monitoring, Urban atmosphere monitoring, GIS & remote sensing data fusion
+                    </div>
+                </li>
+            </ol>
+
+            <h3>URS Topics</h3>
+
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Urban climatology, geology, and geohazards</div>
+                        Urban heat island effects, Air quality assessment, Subsidence, Hydrology, Earthquake/Volcanic falling, landslide and debris flow geological hazards, Coastal hazards, Environmental monitoring (soil, groundwater contaminant studies)
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">RS applications to social science</div>
+                        Applications to vital statistics, RS and health, RS and GIS applications to social science, Applications to security and emergency, Applications to “World Expo” and “Olympic Games”, RS and GIS applications in archaeology
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">RS applications to urban planning and conservation</div>
+                        Urban planning, Transportation planning, Digital city, Urban conservation, Urban simulation based on RS, Cultural heritage
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Urban development and growth pattern</div>
+                        Urban development modeling, Contributions to urban trajectory theory, Detailed structure change, Smart growth
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Urban and peri-urban ecology</div>
+                        Urban and peri-urban landscape ecology, Urban and peri-urban ecological process modeling, Comparative studies
+                    </div>
+                </li>
+            </ol>
+
         </div>
 
-        <footer class="text-center text-lg-start bg-footer">
+        <footer class="text-center text-lg-start bg-footer mt-5">
             <div class="container p-4">
                 <section class="footer-text">
                     <div class="row">
@@ -151,12 +165,13 @@
             </div>
 
         </footer>
+
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/functions.js"></script>
-        <script src="assets/js/code.js"></script>
+
     </body>
 </html>

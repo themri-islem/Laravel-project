@@ -32,66 +32,36 @@
     </head>
 
     <body class="stretched">
-        @include('nav') 
-    
+@include('nav')
+       
            
         <div class="section mt-0 py-5">
             <div class="container">
                 <h3 class="mb-0">
-                    Key Dates
+                    Sponsors
                 </h3>
             </div>
         </div>
 
-        <div class="py-1 mb-5">
-            <div class="container">
+        <div class="py-1">
+            <div class="container mb-5">
 
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th class="w-50">Action</th>
-                            <th class="w-50">Deadline</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Special Sessions Proposal Deadline</td>
-                            <td>30 June 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Open submission Website</td>
-                            <td>7 September 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Papers Submission Deadline</td>
-                            <td>9 December 2022 (updated)</td>
-                        </tr>
-                        <tr>
-                            <td>Acceptance Notification</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Open Registration Website</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Early Registration Deadline</td>
-                            <td>31 March 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Camera-ready Deadline</td>
-                            <td>7 April 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Satellite Events</td>
-                            <td>16 May 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Main Conference</td>
-                            <td>17 - 19 May 2023</td>
-                        </tr>
-                    </tbody>
-                </table>
+                The following organizations are supporting us:
+
+                <div class="justify-content-center">
+                    <ul class="clients-grid grid-4 grid-sm-2 grid-xm-2 grid-md-4 my-5 mb-5">
+                        <li class="grid-item mx-auto"><a href="https://www.ieee.org"><img src="images/sponsors/ieee.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.grss-ieee.org"><img src="images/sponsors/grss.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.esa.int"><img src="images/sponsors/esa.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.isprs.org/"><img src="images/sponsors/isprs.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="http://www.greekgeo.noa.gr/v2/"><img src="images/sponsors/geo.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.crete.gov.gr/en/"><img src="images/sponsors/region-of-crete.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.depanal.gr/gr"><img src="images/sponsors/depanal.png" alt=""></a></li>
+                        <li class="grid-item mx-auto"><a href="https://www.moh.gr/en/"><img src="images/sponsors/motoroil.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                If your organization/society/company is interested to support the JURSE 2023 event, please contact us at <a class="text-decoration-underline" href="mailto:zedd2@iacm.forth.gr">zedd2@iacm.forth.gr</a>
 
             </div>
         </div>
@@ -151,12 +121,14 @@
             </div>
 
         </footer>
+
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/functions.js"></script>
-        <script src="assets/js/code.js"></script>
+        <script src="assets/js/venue.js"></script>
+
     </body>
 </html>

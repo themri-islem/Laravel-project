@@ -36,7 +36,31 @@ Route::get('/registration', function () {
     return view('registration');
 });
 
+
 Route::get('/social', function () {
     return view('social');
 });
 
+Route::get('/keynotes', function () {
+    return view('keynotes');
+});
+
+Route::get('/topic', function () {
+    return view('topic');
+});
+Route::get('/technical', function () {
+    return view('technical');
+});
+Route::get('/commit', function () {
+    return view('commit');
+});
+Route::get('/sponsor', function () {
+    return view('sponsor');
+});
+
+Route::get('/heraklion', function () {
+    return view('heraklion');
+});
+Route::get('/conference', function () {
+    return view('conference');
+});
