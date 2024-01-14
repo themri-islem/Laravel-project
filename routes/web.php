@@ -28,6 +28,15 @@ Route::get('/programe', function () {
 Route::get('/Guidelines', function () {
     return view('Guidelines');
 });
+Route::get('/call', function () {
+    return view('call');
+});
 
+Route::get('/registration', function () {
+    return view('registration');
+});
 
+Route::get('/social', function () {
+    return view('social');
+});
 

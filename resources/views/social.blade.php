@@ -31,6 +31,7 @@
 
     </head>
 
+
     <body class="stretched">
 
         <header id="header" class="full-header">
@@ -39,7 +40,7 @@
                     <div class="header-row">
 
                         <div id="logo">
-                            </div>
+                           </div>
 
                         <div id="primary-menu-trigger">
                             <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
@@ -49,28 +50,28 @@
 
                             <ul class="menu-container">
                                 <li class="menu-item">
-                                    <a class="menu-link" href="/"><div>Home</div></a>
+                                    <a class="menu-link" href="index.html"><div>Home</div></a>
                                 </li>
                                 <li class="menu-item">
-                                    <a class="menu-link" href="Dates"><div>Dates</div></a>
+                                    <a class="menu-link" href="dates.html"><div>Dates</div></a>
                                 </li>
                                 <li class="menu-item">
                                     <a class="menu-link cursor-normal"><div>Participation<i class="icon-caret-down1"></i></div></a>
                                     <ul class="sub-menu-container">
                                         <li class="menu-item">
-                                            <a class="menu-link" href="programe"><div>Program</div></a>
+                                            <a class="menu-link" href="program.html"><div>Program</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="Guidelines"><div>Guidelines</div></a>
+                                            <a class="menu-link" href="guidelines.html"><div>Guidelines</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="call"><div>Call for Papers</div></a>
+                                            <a class="menu-link" href="call-for-papers.html"><div>Call for Papers</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="registration"><div>Registration</div></a>
+                                            <a class="menu-link" href="registration.html"><div>Registration</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="social"><div>Social Events</div></a>
+                                            <a class="menu-link" href="social-events.html"><div>Social Events</div></a>
                                         </li>
                                     </ul>
                                 </li>
@@ -161,60 +162,52 @@
         <div class="section mt-0 py-5">
             <div class="container">
                 <h3 class="mb-0">
-                    Key Dates
+                    Social Events
                 </h3>
             </div>
         </div>
 
-        <div class="py-1 mb-5">
+        <div class="py-1">
             <div class="container">
 
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th class="w-50">Action</th>
-                            <th class="w-50">Deadline</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Special Sessions Proposal Deadline</td>
-                            <td>30 June 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Open submission Website</td>
-                            <td>7 September 2022</td>
-                        </tr>
-                        <tr>
-                            <td>Papers Submission Deadline</td>
-                            <td>9 December 2022 (updated)</td>
-                        </tr>
-                        <tr>
-                            <td>Acceptance Notification</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Open Registration Website</td>
-                            <td>31 January 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Early Registration Deadline</td>
-                            <td>31 March 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Camera-ready Deadline</td>
-                            <td>7 April 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Satellite Events</td>
-                            <td>16 May 2023</td>
-                        </tr>
-                        <tr>
-                            <td>Main Conference</td>
-                            <td>17 - 19 May 2023</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p>
+                    The JURSE 2023 program will host social events, which are addressed to all registered participants and accompanying persons.
+                </p>
+
+                <h4 class="mb-3 mt-2">Ice Breaker (May 16)</h4>
+
+                <p>
+                    This welcome event will take place at the <a class="text-decoration-underline" href="venue.html" target="_blank">conference venue</a> and will include snack buffet and beverages. 
+                    This event is ideal for networking among participants in a hospitable setting, while participants 
+                    will also have the chance to register in advance for the conference.
+                </p>
+
+                <h4 class="mb-3 mt-2">Cultural Tour (May 17)</h4>
+
+                <p>
+                    A guided cultural tour at the <a class="text-decoration-underline" href="https://www.knossospalace.gr/" target="_blank">Knossos Palace</a> has been planned including 
+                    transport with bus from/to the conference venue. Visitors will learn about the 
+                    thriving Minoan civilization and will wander across the ruins of this unique 
+                    archaeological site. The tour will end with a buffet and beverages on-site.
+                </p>
+
+                <h4 class="mb-3 mt-2">Gala Dinner (May 18)</h4>
+
+                <p>
+                    A visit to the <a class="text-decoration-underline" href="https://www.lyrarakis.com/en/home" target="_blank">Lyrarakis winery</a> at the Heraklion outskirts with bus from/to the 
+                    conference venue has been organized. Visitors will have the chance to taste different local wine 
+                    varieties and delectable cuisine at a site surrounded by the natural beauty of the island. 
+                    During the dinner, the result of the student contest will be announced too.
+                </p>
+
+                <div class="row mb-5 mt-5">
+                    <div class="col-lg-6">
+                        <img src="images/knossos.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/winery.png" alt="">
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -274,12 +267,14 @@
             </div>
 
         </footer>
+
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/functions.js"></script>
-        <script src="assets/js/code.js"></script>
+        <script src="assets/js/venue.js"></script>
+
     </body>
 </html>
