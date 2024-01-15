@@ -64,3 +64,13 @@ Route::get('/heraklion', function () {
 Route::get('/conference', function () {
     return view('conference');
 });
+Route::get('/venu', function () {
+    return view('venu');
+});
+Route::get('/videos-and-photos', function () {
+    return view('vd');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});

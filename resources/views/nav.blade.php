@@ -104,12 +104,12 @@
                                     <a class="menu-link" href="conference"><div>Conference Venue</div></a>
                                 </li>
                                 <li class="menu-item">
-                                    <a class="menu-link" href="hotels"><div>Hotels</div></a>
+                                    <a class="menu-link" href="venu"><div>Hotels</div></a>
                                 </li>
                             </ul>
                         </li>
                         <li class="menu-item">
-                            <a class="menu-link" href="video"><div>Videos & Photos</div></a>
+                            <a class="menu-link" href="videos-and-photos"><div>Videos & Photos</div></a>
                         </li>
                         <li class="menu-item">
                             <a class="menu-link" href="contact"><div>Contact</div></a>
