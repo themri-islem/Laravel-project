@@ -154,16 +154,7 @@
 
                 <h3 class="titular-title gradient-horizon gradient-text">Meet the organizers</h3>
                 <div class="row mb-2">
-                    <div class="col-lg-6 text-end">
-                        <a href="https://www.forth.gr"><img src="img/forth.png" width="300px" alt=""></a>
-                    </div>
-                    <div class="col-lg-6 text-start">
-                        <a href="http://rslab.gr"><img src="img/rslab.png" width="300px" alt=""></a>
-                    </div>
-                </div>
-                <h4 class="mt-4 mb-3">in collaboration with</h4>
-                <a href="https://ccbsconference.gr"><img src="assets/img/ccbs.png" width="250px" alt=""></a>
-
+                  
             </div>
         </div>
 

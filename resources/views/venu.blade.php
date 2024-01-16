@@ -46,7 +46,7 @@
         <div class="py-1">
             <div class="container">
 
-                <h4>Proposed hotels for your accommodation during the JURSE 2023 conference</h4>
+                <h4>Proposed hotels for your accommodation during the JURSE 2025 conference</h4>
 
                 <p>
                     To help with your planning, a number of rooms at <b>various city hotels within walking distance</b> of the venue, 
