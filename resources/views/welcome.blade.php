@@ -33,9 +33,10 @@
     </head>
 
     <body class="stretched">
-
+        @csrf
+        
         @include('nav') 
-
+        
         
         <div class="parent vh-50">
             <section id="slider" class="slider-element vh-50" style="background: url('assets/img/R.jpeg') center center; background-size: cover;"></section>
@@ -154,7 +155,15 @@
 
                 <h3 class="titular-title gradient-horizon gradient-text">Meet the organizers</h3>
                 <div class="row mb-2">
-                  
+                
+        @foreach($Tweet as $item)
+            
+            <li>{{$item->src}}</li>
+            <li>{{$item->alt}}</li>
+            <li>{{$item->order}}</li>
+
+        @endforeach
+
             </div>
         </div>
 
