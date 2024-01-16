@@ -96,68 +96,22 @@
 
                 </div>
 
-                <div class="divider divider-center"><i class="icon-globe-africa"></i></div>
 
-                <iframe class="w-100 mt-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.5594938632066!2d25.12992566584432!3d35.333394494779704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149a5987e50bedd9%3A0xab0037183204b1d2!2sCultural%20Conference%20Center%20of%20Heraklion!5e0!3m2!1sen!2sgr!4v1650026080910!5m2!1sen!2sgr" height="300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1200px;height:500px;">
+                    <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+                    src="https://www.google.com/maps/embed/v1/place?q=Ramada+Plaza+Hotel+Tunis&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
+                    <a class="googl-ehtml" href="https://www.bootstrapskins.com/themes" id="enable-map-data">
+                    premium bootstrap themes</a>
+                    <style>#embedded-map-display .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;</style>
+                    </div>
             
             </div>
         </div>
 
-        <footer class="text-center text-lg-start bg-footer margin-top">
-            <div class="container p-4">
-                <section class="footer-text">
-                    <div class="row">
+        @include('footer')
 
-                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 text-center">
-                            <div class="mb-2">
-                                <h4 class="white">Stay connected!</h4>
-                            </div>
-                            <a href="https://www.facebook.com/rslabgr/" target="_blank" class="social-icon inline-block si-dark si-small mb-0 pb-0 si-facebook">
-                                <i class="icon-facebook"></i>
-                                <i class="icon-facebook"></i>
-                            </a>
-
-                            <a href="https://twitter.com/JURSE2023/" target="_blank" class="social-icon inline-block si-dark si-small si-borderless mb-0 si-twitter">
-                                <i class="icon-twitter"></i>
-                                <i class="icon-twitter"></i>
-                            </a>
-
-                            <a href="https://www.youtube.com/playlist?list=PLyHJqeu2tpN5iLzj1HaVP9oCirvFoBN7r" target="_blank" class="social-icon inline-block si-dark si-small si-borderless mb-0 si-youtube">
-                                <i class="icon-youtube"></i>
-                                <i class="icon-youtube"></i>
-                            </a>
-                        </div>
-
-                        <hr class="w-100 clearfix d-md-none mt-3" />
-
-                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 text-center">
-                            <div class="mb-1">
-                                <h4 class="white mb-0">Contact person</h4>
-                            </div>
-                            Nektarios Chrysoulakis<br>
-                            zedd2@iacm.forth.gr<br>
-                            +30 2810-391-762 <br>
-                            +30 6932-929-775
-                        </div>
-
-                        <hr class="w-100 clearfix d-md-none mt-3" />
-
-                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 text-center">
-                            <div class="mb-1">
-                                <h4 class="white mb-0">Venue</h4>
-                            </div>
-                            Cultural Conference Center of Heraklion<br>
-                            N. Plastira Avenue 49, Heraklion, 71201 Greece
-                        </div>
-                    </div>
-
-                </section>
-            </div>
-            <div class="text-center p-3 footer-text" style="background-color: rgba(0, 0, 0, 0.2)">
-                © Copyright <span id="year"></span>: Remote Sensing Laboratory, Foundation for Research and Technology - Hellas (FORTH)
-            </div>
-
-        </footer>
 
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
