@@ -74,3 +74,25 @@ Route::get('/videos-and-photos', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+
+Route::get('/future-settlement', function () {
+    return view('future-settlement ');
+});
+
+Route::get('/geoai-for-monitoring', function () {
+    return view('geoai-for-monitoring');
+});
+
+
+Route::get('/deep-learning', function () {
+    return view('deep-learning');
+});
+
+
+Route::get('/urban-remote', function () {
+    return view('urban-remote');
+});
+Route::get('/earth-observation', function () {
+    return view('earth-observation');
+});

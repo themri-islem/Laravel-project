@@ -28,7 +28,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="img/favicon.ico">
 
-        <title>JURSE 2023 - Joint Urban Remote Sensing Event</title>
+        <title> Joint Urban Remote Sensing Event</title>
 
     </head>
 

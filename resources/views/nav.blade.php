@@ -52,28 +52,28 @@
                                     <a class="menu-link" href="special"><div>Special Sessions</div></a>
                                     <ul class="sub-menu-container">
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/future-settlement-growth-modelling-with-eo-products.html"><div>Future settlement growth modelling with EO products</div></a>
+                                            <a class="menu-link" href="future-settlement        "><div>Future settlement growth modelling with EO products</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/geoai-for-monitoring-rapid-urbanization-processes.html"><div>GeoAI for Monitoring Rapid Urbanization Processes</div></a>
+                                            <a class="menu-link" href="geoai-for-monitoring"><div>GeoAI for Monitoring Rapid Urbanization Processes</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/deep-learning-approaches-for-multi-temporal-and-multi-modal-data-processing.html"><div>Deep learning approaches for multi-temporal and multi-modal data processing and analysis for urban areas</div></a>
+                                            <a class="menu-link" href="deep-learning"><div>Deep learning approaches for multi-temporal and multi-modal data processing and analysis for urban areas</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/urban-remote-sensing-for-the-global-south.html"><div>Urban remote sensing for the Global South</div></a>
+                                            <a class="menu-link" href="urban-remote"><div>Urban remote sensing for the Global South</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/earth-observation-for-integrated-risk-assessment.html"><div>Earth Observation for integrated risk assessment, urban adaptation towards Climate Change and Sustainable Urban Development</div></a>
+                                            <a class="menu-link" href="earth-observation"><div>Earth Observation for integrated risk assessment, urban adaptation towards Climate Change and Sustainable Urban Development</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/urban-thermal-remote-sensing.html"><div>Urban Thermal Remote Sensing</div></a>
+                                            <a class="menu-link" href="urban-thermal-remote"><div>Urban Thermal Remote Sensing</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/urban-air-quality.html"><div>Urban Air Quality</div></a>
+                                            <a class="menu-link" href="urban-air"><div>Urban Air Quality</div></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a class="menu-link" href="special-sessions/promoting-urban-resilience-through-methodologies-and-tools.html"><div>Promoting Urban Resilience through Methodologies and Tools Deploying Earth Observation Data</div></a>
+                                            <a class="menu-link" href="promoting-urban"><div>Promoting Urban Resilience through Methodologies and Tools Deploying Earth Observation Data</div></a>
                                         </li>
                                     </ul>
                                 </li>
