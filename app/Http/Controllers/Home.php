@@ -8,9 +8,8 @@ class Home extends Controller
 {
     public function index()
     {
-        $Tweet=organizer::all();
-        
-        return view ('welcome',compact('Tweet'));
+        $org=organizer::all();
+        return view ('welcome',compact('org'));
     }
 
 }

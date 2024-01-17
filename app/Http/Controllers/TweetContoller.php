@@ -14,7 +14,7 @@ class TweetContoller extends Controller
      */
     public function index()
     {
-        $Tweet=organizer::all();
+        $Tweet=Tweet::all();
         
         return view ('welcome',compact('Tweet'));
     }

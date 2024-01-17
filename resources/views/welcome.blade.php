@@ -150,22 +150,34 @@
             </div>
         </div>
 
-        <div class="section mb-0">
-            <div class="container text-center">
-
-                <h3 class="titular-title gradient-horizon gradient-text">Meet the organizers</h3>
-                <div class="row mb-2">
+        
                 
-        @foreach($Tweet as $item)
+       
             
-            <li>{{$item->src}}</li>
-            <li>{{$item->alt}}</li>
-            <li>{{$item->order}}</li>
+           
 
-        @endforeach
 
+            <div class="section mb-0">
+                <div class="container text-center">
+                   
+                    <h3 class="titular-title gradient-horizon gradient-text">Meet the organizers</h3>
+
+                    <div class="row mb-2">
+                        @foreach($org as $item)
+                        <div class="col-lg-6 text-start">
+                            <a href="{{$item->alt}}">
+                            <img src="http://127.0.0.1:8001/storage/techph/{{$item->image}}" width="200px" alt="">
+                        </a>
+                        </div>
+                        @endforeach
+
+                    </div>
+
+                </div>
             </div>
-        </div>
+
+  
+
 
         @include('footer')
 
