@@ -1,3 +1,4 @@
+@csrf
 <header id="header" class="full-header">
     <div id="header-wrap">
         <div class="container">
@@ -43,7 +44,16 @@
                             <a class="menu-link cursor-normal"><div>Presentation<i class="icon-caret-down1"></i></div></a>
                             <ul class="sub-menu-container">
                                 <li class="menu-item">
-                                    <a class="menu-link" href="keynotes"><div>Keynotes</div></a>
+                                    <a class="menu-link" href="keynotes"><div>Keynotes</div>
+                                </a>
+                              
+                                <ul class="sub-menu-container">
+                                      @foreach($keynote as $item)
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="{{$item->website}}"><div>{{$item->description}}</div></a>
+                                        </li>
+                                        @endforeach
+                                </ul>
                                 </li>
                                 <li class="menu-item">
                                     <a class="menu-link" href="topic"><div>Topics</div></a>
@@ -51,30 +61,12 @@
                                 <li class="menu-item">
                                     <a class="menu-link" href="special"><div>Special Sessions</div></a>
                                     <ul class="sub-menu-container">
+                                      @foreach($specialsession as $item)
                                         <li class="menu-item">
-                                            <a class="menu-link" href="future-settlement        "><div>Future settlement growth modelling with EO products</div></a>
+                                            <a class="menu-link" href="{{$item->title}}"><div>{{$item->description}}</div></a>
                                         </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="geoai-for-monitoring"><div>GeoAI for Monitoring Rapid Urbanization Processes</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="deep-learning"><div>Deep learning approaches for multi-temporal and multi-modal data processing and analysis for urban areas</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="urban-remote"><div>Urban remote sensing for the Global South</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="earth-observation"><div>Earth Observation for integrated risk assessment, urban adaptation towards Climate Change and Sustainable Urban Development</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="urban-thermal-remote"><div>Urban Thermal Remote Sensing</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="urban-air"><div>Urban Air Quality</div></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="promoting-urban"><div>Promoting Urban Resilience through Methodologies and Tools Deploying Earth Observation Data</div></a>
-                                        </li>
+                                        @endforeach
+                                        
                                     </ul>
                                 </li>
                                 <li class="menu-item">

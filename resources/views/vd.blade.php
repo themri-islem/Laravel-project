@@ -31,9 +31,8 @@
     </head>
 
     <body class="stretched">
-
-      @include('nav')
-
+      @csrf
+      @include('nav', ['/' => app(\App\Http\Controllers\Home::class)->index()])
         <div class="section mt-0 py-5">
             <div class="container">
                 <h3 class="mb-0">
@@ -47,18 +46,20 @@
             <h3>Videos</h3>
 
             <div class="row justify-content-center">
-
+               @foreach($video as $item)
                 <div class="col-lg-4 mb-4">
+                {{$item->vpayh}}
                 </div>
+                @endforeach
     
             </div>
 
             <h3>Photos</h3>
-
-            <div id="photos" class="d-flex align-items-stretch row col-mb-50">
-
+            @foreach($photo as $item)
+            <div class="d-flex align-items-stretch row col-mb-50">
+            {{$item->vpayh}}
             </div>
-
+            @endforeach
             <div id="loadMoreButton" class="text-center">
                 <a class="button button-3d button-large button-rounded button-purple mt-5" onclick="handleLoadMore()">Load More</a>
             </div>

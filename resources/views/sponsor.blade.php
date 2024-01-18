@@ -32,6 +32,7 @@
     </head>
 
     <body class="stretched">
+    @csrf
 @include('nav')
        
            
@@ -50,14 +51,9 @@
 
                 <div class="justify-content-center">
                     <ul class="clients-grid grid-4 grid-sm-2 grid-xm-2 grid-md-4 my-5 mb-5">
-                        <li class="grid-item mx-auto"><a href="https://www.ieee.org"><img src="images/sponsors/ieee.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.grss-ieee.org"><img src="images/sponsors/grss.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.esa.int"><img src="images/sponsors/esa.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.isprs.org/"><img src="images/sponsors/isprs.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="http://www.greekgeo.noa.gr/v2/"><img src="images/sponsors/geo.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.crete.gov.gr/en/"><img src="images/sponsors/region-of-crete.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.depanal.gr/gr"><img src="images/sponsors/depanal.png" alt=""></a></li>
-                        <li class="grid-item mx-auto"><a href="https://www.moh.gr/en/"><img src="images/sponsors/motoroil.png" alt=""></a></li>
+                    @foreach($sponsor as $item)   
+                        <li class="grid-item mx-auto"><a href="{{$item->alt}}"><img src="images/sponsors/{{$item->src}}" alt=""></a></li>
+                        @endforeach                   
                     </ul>
                 </div>
 

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TweetContoller;
 use App\Http\Controllers\Home;
+use App\Http\Controllers\vid;
+use App\Http\Controllers\navbar;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +18,9 @@ use App\Http\Controllers\Home;
 
 
 Route::get('/', [Home::class,'index']);
+Route::get('/sponsor',[navbar::class,'index'] );
+Route::get('/videos-and-photos', [vid::class, 'index']);
+
 Route::get('/Dates', function () {
     return view('Dates');
 });
@@ -53,9 +58,7 @@ Route::get('/technical', function () {
 Route::get('/commit', function () {
     return view('commit');
 });
-Route::get('/sponsor', function () {
-    return view('sponsor');
-});
+
 
 Route::get('/heraklion', function () {
     return view('heraklion');
@@ -65,9 +68,6 @@ Route::get('/conference', function () {
 });
 Route::get('/venu', function () {
     return view('venu');
-});
-Route::get('/videos-and-photos', function () {
-    return view('vd');
 });
 
 Route::get('/contact', function () {

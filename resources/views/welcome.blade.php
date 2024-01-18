@@ -141,10 +141,14 @@
 
                             <h4 class="mt-5 mb-1">Recent Posts</h4>
 
+                            @foreach($tweet as $item)
+                        
                            
-
+                        <div class="twitter-desktop">
+                                <a class="twitter-timeline" data-height="750" data-dnt="true" href=" {{$item->link}}"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
                         </div>
-
+                        @endforeach
                     </div>
                 </div>
             </div>
