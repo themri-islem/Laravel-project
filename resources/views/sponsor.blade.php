@@ -51,7 +51,7 @@
 
                 <div class="justify-content-center">
                     <ul class="clients-grid grid-4 grid-sm-2 grid-xm-2 grid-md-4 my-5 mb-5">
-                    @foreach($sponsor as $item)   
+                        @foreach($sponsor as $item)   
                         <li class="grid-item mx-auto"><a href="{{$item->alt}}"><img src="images/sponsors/{{$item->src}}" alt=""></a></li>
                         @endforeach                   
                     </ul>
